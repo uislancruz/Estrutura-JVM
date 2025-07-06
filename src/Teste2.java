@@ -4,6 +4,8 @@ public class Teste2 {
 
         byte[] x = new byte[500 * 1024 * 1024];
 
+        x = null;
+
         imprimirUsoMemoria();
     }
 
