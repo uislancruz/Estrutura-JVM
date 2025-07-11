@@ -12,5 +12,10 @@ public class TestePilha {
 
         //pilha.imprimirEstatisticas();
 
+        ClientePilha clientePilhaRetirado = pilha.retirar();
+        System.out.println(clientePilhaRetirado.nome);
+
+
+
     }
 }
