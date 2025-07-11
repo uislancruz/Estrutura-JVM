@@ -10,10 +10,12 @@ public class TestePilha {
         pilha.adicionar(cliente1);
         pilha.adicionar(cliente2);
 
-        //pilha.imprimirEstatisticas();
+        pilha.imprimirEstatisticas();
 
         ClientePilha clientePilhaRetirado = pilha.retirar();
         System.out.println(clientePilhaRetirado.nome);
+
+        pilha.imprimirEstatisticas();
 
 
 
