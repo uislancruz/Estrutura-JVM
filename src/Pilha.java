@@ -17,7 +17,11 @@ public class Pilha {
             return null;
         }
 
-        return elementos[--tamanho];
+        ClientePilha elemento = elementos[--tamanho];
+        elementos[tamanho] = null;
+        return elemento;
+
+        //return elementos[--tamanho];
     }
 
     void imprimirEstatisticas(){
